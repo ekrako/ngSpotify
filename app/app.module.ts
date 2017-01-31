@@ -6,6 +6,7 @@ import { AppComponent }  from './app.component';
 import { AboutComponent }  from './components/about/about.component';
 import { NavbarComponent }  from './components/navbar/navbar.component';
 import { SearchComponent }  from './components/search/search.component';
+import { ArtistComponent }  from './components/artist/artist.component';
 
 import {routing} from './app.routing';
 
@@ -17,7 +18,8 @@ import {routing} from './app.routing';
   declarations: [ AppComponent,
                   AboutComponent,
                   NavbarComponent,
-                  SearchComponent],
+                  SearchComponent,
+                  ArtistComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
