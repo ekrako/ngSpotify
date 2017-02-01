@@ -3,7 +3,7 @@
 
 <form>
     <div class="form-group">
-        <input class="form-control" type="text" placeholder="Search Artists...." [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic()" />
+        <input class="form-control" type="text" placeholder="Search Artists...." [(ngModel)]="searchStr" name="searchStr" (ngModelChange)="searchMusic()" />
     </div>
 </form>
 
